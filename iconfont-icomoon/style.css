@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mnxwls');
+  src:  url('fonts/icomoon.eot?mnxwls#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mnxwls') format('truetype'),
+    url('fonts/icomoon.woff?mnxwls') format('woff'),
+    url('fonts/icomoon.svg?mnxwls#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone1:before {
+  content: "\e900";
+}
+.icon-phone2:before {
+  content: "\e901";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-success:before {
+  content: "\e902";
+  color: #1fbf7a;  //这是自己加的，不是生成的
+}
+.icon-shoppingcart1:before {
+  content: "\e903";
+}
+.icon-shoppingcart2:before {
+  content: "\e904";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-plus1:before {
+  content: "\e905";
+}
+.icon-plus2 .path1:before {
+  content: "\e906";
+  color: rgb(221, 221, 221); //这是自动生成的
+}
+.icon-plus2 .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 102, 0); //这是自动生成的
+}
+.icon-plus3:before {
+  content: "\e908";
+}
+.icon-decrease4:before {
+  content: "\e909";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-decrease1:before {
+  content: "\e90a";
+}
+.icon-decrease3:before {
+  content: "\e90b";  //这个没有颜色，因为svg文件只有一个path
+}
+.icon-empty-star1:before {
+  content: "\e90c";
+}
+.icon-empty-star2:before {
+  content: "\e90d";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-full-star:before {
+  content: "\e90e";
+}
+.icon-arrow-right:before {
+  content: "\e90f";
+}
+.icon-arrow-up:before {
+  content: "\e910";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-arrow-down:before {
+  content: "\e911";
+}
+.icon-arrow-left:before {
+  content: "\e912";
+}
+.icon-starff6600:before {
+  content: "\e913";
+  color: #f60;  //这是自己加的，不是生成的
+}
+.icon-starffaa00:before {
+  content: "\e914";
+  color: #fa0;  //这是自己加的，不是生成的
+}
+
