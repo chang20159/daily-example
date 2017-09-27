@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>跨域请求</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="./request.js"></script>
+	</head>
+	<body>
+		<div id="container"></div>
+		<script type="text/javascript">
+			//简单请求
+			// new Request().send('http://localhost:8080/server/cors',{
+			// 	success: function(data){
+			// 		document.write(data)
+			// 	}
+			// });
+			// 
+			
+			//预检请求
+			// new Request().send('http://localhost:8080/server/options',{
+			// 	method: 'POST',
+			// 	body: {
+			// 		company: '大众点评'
+			// 	},
+			// 	header: {
+			// 		'Content-Type': 'application/json'  //告诉服务器实际发送的数据类型
+			// 	},
+			// 	success: function(data){
+			// 		document.write(data)
+			// 	}
+			// });
+			var containerElem = document.getElementById('container')
+			new Request().send('http://localhost:8080/server/testCookie',{
+				method: 'POST',
+				withCredentials: true,
+				header: {
+					'Content-Type': 'application/json'  //告诉服务器实际发送的数据类型
+				},
+				success: function(data){
+					containerElem.innerHTML = data
+				}
+			});
+		</script>
+	</body>
+</html>
