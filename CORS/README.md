@@ -9,7 +9,3 @@ anywhere -h localhost -p 8000
 ### Server
 Java + SpringMVC实现
 IntelliJ IDEA 本地启动 tomcat
-
-### 关于CORS
-
-http://chang20159.github.io/关于CORS/
